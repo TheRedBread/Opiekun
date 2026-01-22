@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Opiekun.Data;
 using Opiekun.Models.Dtos;
 using Opiekun.Services;
 
@@ -11,12 +10,10 @@ namespace Opiekun.Controllers;
 [Authorize]
 public class ZasobyApiController : ControllerBase
 {
-    private readonly OpiekunDbContext _context;
     private readonly IZasobyService _zasobyService;
 
-    public ZasobyApiController(OpiekunDbContext context, IZasobyService zasobyService)
+    public ZasobyApiController(IZasobyService zasobyService)
     {
-        _context = context;
         _zasobyService = zasobyService;
     }
 
@@ -89,5 +86,15 @@ public class ZasobyApiController : ControllerBase
         return NoContent();
 
     }
+
+    // Get api/zasoby/niskistan?kategoria=karma&includeAll=true
+    [HttpGet("niskistan")]
+    public async Task<ActionResult<IEnumerable<ZasobDTO>>> InsufficientZasoby([FromQuery] string? kategoria, [FromQuery] bool includeAll)
+    {
+        var results = await _zasobyService.GetInsufficientZasoby(kategoria, includeAll);
+        return Ok(results);
+    }
+
+
 
 }

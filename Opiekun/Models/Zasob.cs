@@ -22,5 +22,8 @@ public class Zasob
     [MaxLength(500)]
     public string MiejscePrzechowania { get; set; } = String.Empty;
 
+    [Range(0, double.MaxValue)]
+    public decimal MinimumIlosc { get; set; }
+
 
 }

@@ -9,4 +9,8 @@ public class ZasobDTO
     public string Jednostka { get; set; } = String.Empty;
     public string MiejscePrzechowania { get; set; } = String.Empty;
 
+    public bool CzyNiskiStan { get; set; }
+    public decimal MinimumIlosc { get; set; }
+
+
 }

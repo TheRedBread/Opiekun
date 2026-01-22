@@ -270,6 +270,60 @@
           }
         }
       }
+    },
+    "/api/zasoby/niskistan": {
+      "get": {
+        "tags": [
+          "ZasobyApi"
+        ],
+        "parameters": [
+          {
+            "name": "kategoria",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "includeAll",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ZasobDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ZasobDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ZasobDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -307,6 +361,11 @@
             "maxLength": 500,
             "type": "string",
             "nullable": true
+          },
+          "minimumIlosc": {
+            "minimum": 0,
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false
@@ -333,6 +392,11 @@
           },
           "miejscePrzechowania": {
             "type": "string",
+            "nullable": true
+          },
+          "minimumIlosc": {
+            "type": "number",
+            "format": "double",
             "nullable": true
           }
         },
@@ -364,6 +428,13 @@
           "miejscePrzechowania": {
             "type": "string",
             "nullable": true
+          },
+          "czyNiskiStan": {
+            "type": "boolean"
+          },
+          "minimumIlosc": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false

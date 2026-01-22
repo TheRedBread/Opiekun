@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|c:\\users\\redbread\\source\\repos\\opiekun\\opiekun\\controllers\\zasobyapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|solutionrelative:opiekun\\controllers\\zasobyapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|c:\\users\\redbread\\source\\repos\\opiekun\\opiekun\\services\\zasobyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|solutionrelative:opiekun\\services\\zasobyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|c:\\users\\redbread\\source\\repos\\opiekun\\opiekun\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|solutionrelative:opiekun\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|c:\\users\\redbread\\source\\repos\\opiekun\\opiekun\\services\\izasobyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|solutionrelative:opiekun\\services\\izasobyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|c:\\users\\redbread\\source\\repos\\opiekun\\opiekun\\controllers\\zasobyapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|solutionrelative:opiekun\\controllers\\zasobyapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|c:\\users\\redbread\\source\\repos\\opiekun\\opiekun\\models\\dtos\\updatezasobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +27,20 @@
       "RelativeMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|solutionrelative:opiekun\\mapping\\zasobymapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|c:\\users\\redbread\\source\\repos\\opiekun\\opiekun\\models\\zasob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|solutionrelative:opiekun\\models\\zasob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|c:\\users\\redbread\\source\\repos\\opiekun\\opiekun\\models\\dtos\\zasobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|solutionrelative:opiekun\\models\\dtos\\zasobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|c:\\users\\redbread\\source\\repos\\opiekun\\opiekun\\services\\zasobyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|solutionrelative:opiekun\\services\\zasobyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|c:\\users\\redbread\\source\\repos\\opiekun\\opiekun\\migrations\\20260122103004_minimumilosc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|solutionrelative:opiekun\\migrations\\20260122103004_minimumilosc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|c:\\users\\redbread\\source\\repos\\opiekun\\opiekun\\services\\izasobyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|solutionrelative:opiekun\\services\\izasobyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|c:\\users\\redbread\\source\\repos\\opiekun\\opiekun\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|solutionrelative:opiekun\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|c:\\users\\redbread\\source\\repos\\opiekun\\opiekun\\opiekun.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -51,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|solutionrelative:opiekun\\data\\opiekundbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|c:\\users\\redbread\\source\\repos\\opiekun\\opiekun\\models\\zasob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|solutionrelative:opiekun\\models\\zasob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|c:\\users\\redbread\\source\\repos\\opiekun\\opiekun\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{AF5DC694-90E4-77B0-571E-3BE859537D41}|Opiekun\\Opiekun.csproj|solutionrelative:opiekun\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -66,83 +70,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "20260122103004_MinimumIlosc.cs",
+              "DocumentMoniker": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Migrations\\20260122103004_MinimumIlosc.cs",
+              "RelativeDocumentMoniker": "Opiekun\\Migrations\\20260122103004_MinimumIlosc.cs",
+              "ToolTip": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Migrations\\20260122103004_MinimumIlosc.cs",
+              "RelativeToolTip": "Opiekun\\Migrations\\20260122103004_MinimumIlosc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T10:30:04.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UpdateZasobDTO.cs",
               "DocumentMoniker": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Models\\Dtos\\UpdateZasobDTO.cs",
               "RelativeDocumentMoniker": "Opiekun\\Models\\Dtos\\UpdateZasobDTO.cs",
               "ToolTip": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Models\\Dtos\\UpdateZasobDTO.cs",
               "RelativeToolTip": "Opiekun\\Models\\Dtos\\UpdateZasobDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T13:58:43.067Z"
+              "WhenOpened": "2026-01-20T13:58:43.067Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CreateZasobDTO.cs",
               "DocumentMoniker": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Models\\Dtos\\CreateZasobDTO.cs",
               "RelativeDocumentMoniker": "Opiekun\\Models\\Dtos\\CreateZasobDTO.cs",
               "ToolTip": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Models\\Dtos\\CreateZasobDTO.cs",
               "RelativeToolTip": "Opiekun\\Models\\Dtos\\CreateZasobDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T13:31:54.486Z"
+              "WhenOpened": "2026-01-20T13:31:54.486Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ZasobyMapping.cs",
               "DocumentMoniker": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Mapping\\ZasobyMapping.cs",
               "RelativeDocumentMoniker": "Opiekun\\Mapping\\ZasobyMapping.cs",
               "ToolTip": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Mapping\\ZasobyMapping.cs",
               "RelativeToolTip": "Opiekun\\Mapping\\ZasobyMapping.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAADwvyUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T12:54:27.59Z"
+              "WhenOpened": "2026-01-20T12:54:27.59Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ZasobDTO.cs",
               "DocumentMoniker": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Models\\Dtos\\ZasobDTO.cs",
               "RelativeDocumentMoniker": "Opiekun\\Models\\Dtos\\ZasobDTO.cs",
               "ToolTip": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Models\\Dtos\\ZasobDTO.cs",
               "RelativeToolTip": "Opiekun\\Models\\Dtos\\ZasobDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T12:51:07.147Z"
+              "WhenOpened": "2026-01-20T12:51:07.147Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "ZasobyService.cs",
               "DocumentMoniker": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Services\\ZasobyService.cs",
               "RelativeDocumentMoniker": "Opiekun\\Services\\ZasobyService.cs",
               "ToolTip": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Services\\ZasobyService.cs",
               "RelativeToolTip": "Opiekun\\Services\\ZasobyService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAqwGAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T12:50:08.105Z"
+              "WhenOpened": "2026-01-20T12:50:08.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "IZasobyService.cs",
               "DocumentMoniker": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Services\\IZasobyService.cs",
               "RelativeDocumentMoniker": "Opiekun\\Services\\IZasobyService.cs",
               "ToolTip": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Services\\IZasobyService.cs",
               "RelativeToolTip": "Opiekun\\Services\\IZasobyService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T12:47:26.732Z"
+              "WhenOpened": "2026-01-20T12:47:26.732Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Opiekun.csproj",
               "DocumentMoniker": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Opiekun.csproj",
               "RelativeDocumentMoniker": "Opiekun\\Opiekun.csproj",
@@ -154,20 +177,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ZasobyApiController.cs",
               "DocumentMoniker": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Controllers\\ZasobyApiController.cs",
               "RelativeDocumentMoniker": "Opiekun\\Controllers\\ZasobyApiController.cs",
               "ToolTip": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Controllers\\ZasobyApiController.cs",
               "RelativeToolTip": "Opiekun\\Controllers\\ZasobyApiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAmwFkAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-20T12:34:47.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Opiekun\\Models\\ErrorViewModel.cs",
@@ -179,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "20260120123246_Init.cs",
               "DocumentMoniker": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Migrations\\20260120123246_Init.cs",
               "RelativeDocumentMoniker": "Opiekun\\Migrations\\20260120123246_Init.cs",
@@ -191,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "OpiekunDbContext.cs",
               "DocumentMoniker": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Data\\OpiekunDbContext.cs",
               "RelativeDocumentMoniker": "Opiekun\\Data\\OpiekunDbContext.cs",
@@ -203,19 +226,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
               "Title": "Zasob.cs",
               "DocumentMoniker": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Models\\Zasob.cs",
               "RelativeDocumentMoniker": "Opiekun\\Models\\Zasob.cs",
               "ToolTip": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Models\\Zasob.cs",
               "RelativeToolTip": "Opiekun\\Models\\Zasob.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T12:12:36.69Z"
+              "WhenOpened": "2026-01-20T12:12:36.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\appsettings.json",
               "RelativeDocumentMoniker": "Opiekun\\appsettings.json",
@@ -227,16 +251,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Program.cs",
               "RelativeDocumentMoniker": "Opiekun\\Program.cs",
               "ToolTip": "C:\\Users\\RedBread\\source\\repos\\Opiekun\\Opiekun\\Program.cs",
               "RelativeToolTip": "Opiekun\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T12:07:26.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T12:07:26.413Z"
             }
           ]
         }

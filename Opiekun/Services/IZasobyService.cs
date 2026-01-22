@@ -15,4 +15,6 @@ public interface IZasobyService
     Task<bool> UpdateZasobAsync(Guid id, UpdateZasobDTO dto);
     Task<bool> DeleteZasobAsync(Guid id);
 
+    Task<IEnumerable<ZasobDTO>> GetInsufficientZasoby(string? kategoria, bool includeAll);
+
 }

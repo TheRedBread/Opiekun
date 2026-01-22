@@ -15,7 +15,11 @@ public static class ZasobyMapping
             Kategoria = zasob.Kategoria,
             Ilosc = zasob.Ilosc,
             Jednostka = zasob.Jednostka,
-            MiejscePrzechowania = zasob.MiejscePrzechowania
+            MiejscePrzechowania = zasob.MiejscePrzechowania,
+            MinimumIlosc = zasob.MinimumIlosc,
+            CzyNiskiStan = zasob.MinimumIlosc > zasob.Ilosc
+            
+            
         };
         return Dto;
     }
@@ -27,7 +31,9 @@ public static class ZasobyMapping
             Kategoria = CreateDTO.Kategoria,
             Ilosc = CreateDTO.Ilosc,
             Jednostka = CreateDTO.Jednostka,
-            MiejscePrzechowania = CreateDTO.MiejscePrzechowania
+            MiejscePrzechowania = CreateDTO.MiejscePrzechowania,
+            MinimumIlosc = CreateDTO.MinimumIlosc
+
         };
         return zasob;
     }
@@ -49,6 +55,10 @@ public static class ZasobyMapping
 
         if (!dto.MiejscePrzechowania.IsNullOrEmpty())
             zasob.MiejscePrzechowania = dto.MiejscePrzechowania!;
+
+        if (dto.MinimumIlosc.HasValue)
+            zasob.MinimumIlosc = dto.MinimumIlosc.Value;
+
     }
 
 }

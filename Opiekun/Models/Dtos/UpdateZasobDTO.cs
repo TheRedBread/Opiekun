@@ -7,5 +7,6 @@ public class UpdateZasobDTO
     public decimal? Ilosc { get; set; }
     public string? Jednostka { get; set; } = String.Empty;
     public string? MiejscePrzechowania { get; set; } = String.Empty;
+    public decimal? MinimumIlosc { get; set; }
 
 }

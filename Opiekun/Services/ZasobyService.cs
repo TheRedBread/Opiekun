@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Opiekun.Data;
 using Opiekun.Mapping;
+using Opiekun.Models;
 using Opiekun.Models.Dtos;
 
 namespace Opiekun.Services;
@@ -80,5 +81,33 @@ public class ZasobyService : IZasobyService
 
         return true;
 
+    }
+
+    public async Task<IEnumerable<ZasobDTO>> GetInsufficientZasoby(string? kategoria, bool includeAll = false)
+    {
+        
+
+        kategoria = kategoria?.ToLower();
+
+        IEnumerable<Zasob> zasoby;
+
+        if (includeAll)
+        {
+            zasoby = await _context.Zasoby
+                .Where(z => (kategoria == null || z.Kategoria.Contains(kategoria)))
+                .ToListAsync();
+        }
+        else
+        {
+
+            zasoby = await _context.Zasoby
+                .Where(z => z.Ilosc < z.MinimumIlosc
+                && (kategoria == null || z.Kategoria.ToLower().Contains(kategoria)))
+                .ToListAsync();
+        }
+
+        var dto = zasoby.Select(z => z.toDto()).ToList();
+
+        return dto;
     }
 }
