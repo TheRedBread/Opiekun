@@ -8,13 +8,13 @@ public interface IZasobyService
     /// <summary>
     /// Returns all <see cref="Zasob"/> entities as <see cref="ZasobDTO"/>
     /// </summary>
-    Task<IEnumerable<ZasobDTO>> GetAllZasobyAsync();
+    Task<IEnumerable<ZasobDTO>> GetAllZasoby();
 
     /// <summary>
     /// Returns a <see cref="Zasob"/> entity as a <see cref="ZasobDTO"/>
     /// </summary>
     /// <param name="id">The Zasob id</param>
-    Task<ZasobDTO?> GetZasobByIdAsync(Guid id);
+    Task<ZasobDTO?> GetZasobById(Guid id);
 
     /// <summary>
     /// Searches <see cref="Zasob"/> entities by name, category, or description
