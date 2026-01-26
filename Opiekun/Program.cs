@@ -60,6 +60,11 @@ builder.Services.AddTransient<IZasobyService, ZasobyService>();
 
 var app = builder.Build();
 
+
+await SeedService.SeedDatabase(app.Services);
+
+
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -72,8 +77,6 @@ else
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

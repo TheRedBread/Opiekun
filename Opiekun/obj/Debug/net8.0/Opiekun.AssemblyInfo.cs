@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Opiekun")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f54dab8d7901d6a6dee13f8397927af350dfb48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f821d56268f3333a690d95cf532f051e2bbe3e7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Opiekun")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Opiekun")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
