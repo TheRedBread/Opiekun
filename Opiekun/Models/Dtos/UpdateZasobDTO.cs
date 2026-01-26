@@ -2,11 +2,11 @@
 
 public class UpdateZasobDTO
 {
-    public string? Nazwa { get; set; } = String.Empty;
-    public string? Kategoria { get; set; } = String.Empty;
+    public string? Nazwa { get; set; } = string.Empty;
+    public string? Kategoria { get; set; } = string.Empty;
     public decimal? Ilosc { get; set; }
-    public string? Jednostka { get; set; } = String.Empty;
-    public string? MiejscePrzechowania { get; set; } = String.Empty;
+    public string? Jednostka { get; set; } = string.Empty;
+    public string? MiejscePrzechowania { get; set; } = string.Empty;
     public decimal? MinimumIlosc { get; set; }
 
 }
