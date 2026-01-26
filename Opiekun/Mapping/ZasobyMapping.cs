@@ -15,10 +15,10 @@ public static class ZasobyMapping
             Kategoria = zasob.Kategoria,
             Ilosc = zasob.Ilosc,
             Jednostka = zasob.Jednostka,
-            MiejscePrzechowania = zasob.MiejscePrzechowania,
+            MiejscePrzechowaniaId = zasob.MiejscePrzechowaniaId,
             MinimumIlosc = zasob.MinimumIlosc,
-            CzyNiskiStan = zasob.MinimumIlosc > zasob.Ilosc
-            
+            CzyNiskiStan = zasob.MinimumIlosc > zasob.Ilosc,
+            TypZasobu = zasob.TypZasobu
             
         };
         return Dto;
@@ -31,8 +31,9 @@ public static class ZasobyMapping
             Kategoria = CreateDTO.Kategoria,
             Ilosc = CreateDTO.Ilosc,
             Jednostka = CreateDTO.Jednostka,
-            MiejscePrzechowania = CreateDTO.MiejscePrzechowania,
-            MinimumIlosc = CreateDTO.MinimumIlosc
+            MiejscePrzechowaniaId = CreateDTO.MiejscePrzechowaniaId,
+            MinimumIlosc = CreateDTO.MinimumIlosc,
+            TypZasobu = CreateDTO.TypZasobu
 
         };
         return zasob;
@@ -53,11 +54,15 @@ public static class ZasobyMapping
         if (!dto.Jednostka.IsNullOrEmpty())
                 zasob.Jednostka = dto.Jednostka!;
 
-        if (!dto.MiejscePrzechowania.IsNullOrEmpty())
-            zasob.MiejscePrzechowania = dto.MiejscePrzechowania!;
+        if (dto.MiejscePrzechowaniaId != null)
+            zasob.MiejscePrzechowaniaId = dto.MiejscePrzechowaniaId;
 
         if (dto.MinimumIlosc.HasValue)
             zasob.MinimumIlosc = dto.MinimumIlosc.Value;
+
+        if (dto.TypZasobu.HasValue)
+            zasob.TypZasobu = dto.TypZasobu.Value;
+
 
     }
 

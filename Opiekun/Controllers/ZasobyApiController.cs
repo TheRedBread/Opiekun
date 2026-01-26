@@ -7,7 +7,6 @@ namespace Opiekun.Controllers;
 
 [Route("api/zasoby")]
 [ApiController]
-[Authorize]
 public class ZasobyApiController : ControllerBase
 {
     private readonly IZasobyService _zasobyService;
@@ -24,6 +23,7 @@ public class ZasobyApiController : ControllerBase
         var zasoby = await _zasobyService.GetAllZasoby();
         return Ok(zasoby);
     }
+
 
     // GET: api/zasoby/{id}
     [HttpGet("{id}")]

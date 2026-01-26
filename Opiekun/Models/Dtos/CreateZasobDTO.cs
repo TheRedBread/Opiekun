@@ -17,11 +17,12 @@ public class CreateZasobDTO
     [Required, MaxLength(50)]
     public string Jednostka { get; set; } = string.Empty;
 
-    [MaxLength(500)]
-    public string MiejscePrzechowania { get; set; } = string.Empty;
+    public Guid? MiejscePrzechowaniaId { get; set; }
 
     [Range(0, double.MaxValue, ErrorMessage = "MinimumIlość musi być dodatnia")]
     public decimal MinimumIlosc { get; set; }
 
+    [Required]
+    public typZasobu TypZasobu { get; set; }
 
 }
